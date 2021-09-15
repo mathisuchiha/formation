@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+.mainPage{
+    background-color: white;
+    width: 80%;
+    margin:20px auto 20px auto;
+    border: rgba(128, 128, 128, 0.514) 1px solid;
+    border-radius: 1%;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    padding: 5px;
+    border-radius: 5%;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 200ms;
+    transition-timing-function: linear;
+
+}
+nav li:hover{
+    background-color: rgb (180, 180, 180);
+}
+nav a{
+    text-decoration: none;
+    color: rgb(31, 195, 245);
+    transition-property: all;
+    transition-duration: 1s;
+
+}
+nav li :hover a{
+    color: black
+}
+.menuGauche{
+    width: 30%;
+
+}
+.mainDiv{
+    display: inline-block;
+}
+.animation{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background: conic-gradient (from 80 deg, black, white, red);
+
+
+animation-name: testAnim;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+animation-timing-function: ease-in-out;
+
+}
